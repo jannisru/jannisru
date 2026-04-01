@@ -9,7 +9,8 @@ Building things at the intersection of **tabular ML**, **NLP**, and **large-scal
 
 | Repo | What it does | Stack |
 |------|-------------|-------|
-| [large-scale-entity-matching](https://github.com/jannisru/large-scale-entity-matching) | Full pipeline for matching entities across 35+ datasets with 3M+ rows each — blocking, ANN candidate generation, fuzzy scoring | Python · FAISS · DuckDB · sentence-transformers |
+| [large-scale-entity-matching](https://github.com/jannisru/large-scale-entity-matching) | Full pipeline for matching entities across 35+ datasets with 3M+ rows each — blocking, ANN candidate generation, fuzzy scoring · **available on PyPI** | Python · FAISS · DuckDB · sentence-transformers |
+| [llm-entity-reranker](https://github.com/jannisru/llm-entity-reranker) | LLM-enhanced re-ranking layer on top of candidate pairs from `large-scale-entity-matching` — embedding-based scoring vs. classical fuzzy matching · *in progress* | Python · sentence-transformers · Ollama |
 | [word2vec-only-using-Numpy](https://github.com/jannisru/word2vec-only-using-Numpy) | Skip-Gram with Negative Sampling from scratch — no PyTorch, no shortcuts | Python · NumPy |
 | [schema-matching-pytorch](https://github.com/jannisru/schema-matching-pytorch) | Schema matching with PyTorch | Python · PyTorch |
 
