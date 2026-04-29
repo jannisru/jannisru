@@ -1,6 +1,5 @@
 # Jannis Rudloff
 
-Data Science student @ University of Augsburg · Incoming MSc @ TUM  
 Building things at the intersection of **tabular ML**, **NLP**, and **large-scale data pipelines**.
 
 ---
