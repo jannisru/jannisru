@@ -1,41 +1,44 @@
 # Jannis Rudloff
 
-Building things at the intersection of **tabular ML**, **NLP**, and **large-scale data pipelines**.
+ML Engineer & Data Scientist based in Munich. I build things at the intersection of **tabular ML**, **NLP**, and **large-scale data pipelines**.
 
 ---
 
 ## Projects
 
 | Repo | What it does | Stack |
-|------|-------------|-------|
-| [large-scale-entity-matching](https://github.com/jannisru/large-scale-entity-matching) | Full pipeline for matching entities across 35+ datasets with 3M+ rows each — blocking, ANN candidate generation, fuzzy scoring · **available on PyPI** | Python · FAISS · DuckDB · sentence-transformers |
-| [llm-entity-reranker](https://github.com/jannisru/llm-entity-reranker) | LLM-enhanced re-ranking layer on top of candidate pairs from `large-scale-entity-matching` — embedding-based scoring vs. classical fuzzy matching · *in progress* | Python · sentence-transformers · Ollama |
-| [word2vec-only-using-Numpy](https://github.com/jannisru/word2vec-only-using-Numpy) | Skip-Gram with Negative Sampling from scratch — no PyTorch, no shortcuts | Python · NumPy |
-| [schema-matching-pytorch](https://github.com/jannisru/schema-matching-pytorch) | Schema matching with PyTorch | Python · PyTorch |
+|---|---|---|
+| [large-scale-entity-matching](https://github.com/jannisru/large-scale-entity-matching) | Full pipeline for matching entities across datasets with 3M+ rows — blocking, FAISS ANN, fuzzy scoring · **available on PyPI** | Python · FAISS · DuckDB · sentence-transformers |
+| [llm-entity-reranker](https://github.com/jannisru/llm-entity-reranker) | LLM-enhanced re-ranking layer on top of candidate pairs — embedding scoring vs. classical fuzzy matching · *in progress* | Python · sentence-transformers · Ollama |
+| [schema-matching-pytorch](https://github.com/jannisru/schema-matching-pytorch) | Siamese sentence-transformer that maps columns across tables with different naming conventions | Python · PyTorch · sentence-transformers |
+| [word2vec-only-using-numpy](https://github.com/jannisru/word2vec-only-using-numpy) | Skip-Gram with Negative Sampling from scratch — no PyTorch, every gradient by hand | Python · NumPy |
+| [doc-ref-analyzer](https://github.com/jannisru/doc-ref-analyzer) | Track how an arXiv paper is cited across Hacker News, Reddit, Wikipedia, Google News & Semantic Scholar | Python |
 
 ---
 
-## Experience highlights
+## Experience
 
-- **Encory GmbH (BMW Group)** — Built data pipelines over 25+ sources for BMW's reverse supply chain; identified ~€400k in recoverable revenue using Celonis process mining
-- **University of Augsburg HiWi** — Deployed & benchmarked synthetic data generation models on an HPC cluster (Slurm)
-- **Axion** — Head of Consulting, leading strategy projects for tech startups
+**Encory GmbH (BMW Group)** — Data Solutions Intern  
+Built pipelines across 25+ data sources for BMW's reverse supply chain. Identified ~€400k in recoverable revenue using Celonis process mining.
+
+**University of Augsburg** — Research & Teaching Assistant  
+Deployed and benchmarked synthetic data generation models on an HPC cluster (Slurm). Course support for multimedia programming and ML.
+
+**Axion Munich** — Head of Consulting  
+Leading strategy projects for early-stage tech startups in a student consulting club.
 
 ---
 
 ## Stack
 
-`Python` `PyTorch` `scikit-learn` `DuckDB` `FAISS` `SQL` `Celonis` `Slurm` `pandas` `sentence-transformers`
+`Python` `PyTorch` `scikit-learn` `DuckDB` `FAISS` `SQL` `pandas` `sentence-transformers` `Celonis` `Slurm`
 
 ---
 
 ## Currently
 
-- Finishing BSc thesis: *Limit profiles of the biased card shuffling*
-- Building: LLM-enhanced entity matching · Supply chain anomaly detection
-- Leading consulting project with Axion
+- Finishing BSc at University of Augsburg
+- Building: LLM-enhanced entity matching · supplier matching pipeline
+- Open to interesting ML / data engineering problems
 
----
-
-*Open to collaborations and interesting ML problems.*  
-📬 jannisrudloff@gmail.com
+📬 jannisrudloff@gmail.com · [LinkedIn](https://linkedin.com/in/jannisrudloff)
